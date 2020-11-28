@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="cau2222.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="text-align:center">
+            <p style="background-color: #FF9999; color: #0000FF; font-weight: bold">Lớp 56K1 Nghành CNTT</p>
+        </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        <div style="text-align:center">
+            <p style="color: #0000FF; font-weight: bold; background-color: #FF9999">Viện Kỹ thuật và Công nghệ - Trường Đại học Vinh</p>
+        </div>
+    </form>
+</body>
+</html>
+
